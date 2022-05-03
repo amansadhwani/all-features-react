@@ -9,13 +9,38 @@ type dataProps = {
 const dataUrl: dataProps[] = [
   {
     id: 1,
-    name: "Custom Infinite Scroll",
+    name: "Custom Infinite Scroll API",
     url: "/infinite-scroll-custom",
   },
   {
     id: 2,
-    name: "Custom Pagination",
-    url: "/custom-pagination",
+    name: "Comment Box",
+    url: "/comment-box",
+  },
+  {
+    id: 3,
+    name: "Custom Infinite Scroll ",
+    url: "/infinite-scroll-custom-item",
+  },
+  {
+    id: 4,
+    name: "Ecommerce ",
+    url: "/ecommerce",
+  },
+  {
+    id: 5,
+    name: "Higher Order Component",
+    url: "/hoc",
+  },
+  {
+    id: 6,
+    name: "Use Memo",
+    url: "/usememo",
+  },
+  {
+    id: 7,
+    name: "Use Callback",
+    url: "/usecallback",
   },
 ];
 

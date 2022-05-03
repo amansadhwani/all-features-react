@@ -1,0 +1,43 @@
+.infinite-main-item-div{
+    height: 80vh;
+  overflow: auto;
+    margin-top:20px;
+}
+
+.container {
+  display: flex;
+  width: 75%;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  height: 500px;
+  overflow: hidden;
+}
+.right-col {
+  flex-flow: column wrap;
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+}
+.menu {
+  flex-basis: 10%;
+  background: lightblue;
+}
+.header {
+  flex: 0 0 10%;
+  background: lightgray;
+}
+.body {
+  display: flex;
+  flex: 0 0 80%;
+
+}
+.footer {
+  flex: 0 0 10%;
+  background: lightgreen;
+}
+.ecommerce-item{
+  padding:100px;
+  margin:30px;
+  border: 1px solid black;
+}
