@@ -1,22 +1,23 @@
 import React, { useState, useMemo } from "react";
-import MemoChildren from "./MemoChildren";
-const MemoExample = () => {
-  const [counter, setCounter] = useState(0);
 
-  const computeSomething = useMemo(() => {
-    console.log("again");
-    return 4 * 4 * 4;
-  }, []);
-
-  return (
-    <>
-      <h1>MemoExample</h1>
-      <MemoChildren />
-      <button onClick={() => setCounter(counter + 1)}>Update </button>
-      <div> {counter}</div>
-      {computeSomething}
-    </>
+export default function MemoExample() {
+  const [count, setCount] = useState(0);
+  const array = new Array(100).fill(2);
+  const reducedValue = useMemo(
+    () =>
+      array.reduce((a, b) => {
+        console.log("computed again");
+        return a + b;
+      }),
+    []
   );
-};
-
-export default MemoExample;
+  return (
+    <div>
+      <h1>{count}</h1>
+      <p> {reducedValue} </p>
+      <button type="button" onClick={() => setCount(count + 1)}>
+        Increase count
+      </button>
+    </div>
+  );
+}

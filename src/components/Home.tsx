@@ -42,6 +42,21 @@ const dataUrl: dataProps[] = [
     name: "Use Callback",
     url: "/usecallback",
   },
+  {
+    id: 8,
+    name: "Timer Countdown",
+    url: "/timercountdown",
+  },
+  {
+    id: 9,
+    name: "State Difference",
+    url: "/statediff",
+  },
+  {
+    id: 10,
+    name: "Single Progress",
+    url: "/singleprogress",
+  },
 ];
 
 export const Home = () => {

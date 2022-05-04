@@ -6,6 +6,9 @@ import { ECommerce } from "../components/ECommerce/ECommerce";
 import WithHoc from "../components/Hoc/HigherOrderComponent";
 import MemoExample from "../components/UseMemo/MemoExample";
 import { CallbackExample } from "../components/UseMemo/CallbackExample";
+import { CountDown } from "../components/TimerCountdown/CountDown";
+import { StateDiff } from "../components/StateDifference/StateDiff";
+import { SingleProgress } from "../components/ProgressBar/SingleProgress";
 
 export const AllRoutes = () => {
   return (
@@ -26,6 +29,9 @@ export const AllRoutes = () => {
         <Route exact path="hoc" element={<WithHoc />} />
         <Route exact path="usememo" element={<MemoExample />} />
         <Route exact path="usecallback" element={<CallbackExample />} />
+        <Route exact path="timercountdown" element={<CountDown />} />
+        <Route exact path="statediff" element={<StateDiff />} />
+        <Route exact path="singleprogress" element={<SingleProgress />} />
       </Routes>
     </div>
   );
