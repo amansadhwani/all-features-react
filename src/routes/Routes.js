@@ -9,6 +9,9 @@ import { CallbackExample } from "../components/UseMemo/CallbackExample";
 import { CountDown } from "../components/TimerCountdown/CountDown";
 import { StateDiff } from "../components/StateDifference/StateDiff";
 import { SingleProgress } from "../components/ProgressBar/SingleProgress";
+import CommentBox from "../components/Comment/CommentBox";
+import { AutoBatching } from "../components/AutomaticBatching/AutoBatching";
+import { AppAccordin } from "../components/FolderStructure/Accordin";
 
 export const AllRoutes = () => {
   return (
@@ -24,6 +27,7 @@ export const AllRoutes = () => {
           path="infinite-scroll-custom-item"
           element={<InfiniteScrollItem />}
         />
+        <Route exact path="comment-box" element={<CommentBox />} />
         <Route exact path="custom-pagination" element={<CustomPagination />} />
         <Route exact path="ecommerce" element={<ECommerce />} />
         <Route exact path="hoc" element={<WithHoc />} />
@@ -32,6 +36,8 @@ export const AllRoutes = () => {
         <Route exact path="timercountdown" element={<CountDown />} />
         <Route exact path="statediff" element={<StateDiff />} />
         <Route exact path="singleprogress" element={<SingleProgress />} />
+        <Route exact path="react18" element={<AutoBatching />} />
+        <Route exact path="folderstruct" element={<AppAccordin />} />
       </Routes>
     </div>
   );

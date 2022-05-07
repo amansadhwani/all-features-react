@@ -57,6 +57,21 @@ const dataUrl: dataProps[] = [
     name: "Single Progress",
     url: "/singleprogress",
   },
+  {
+    id: 11,
+    name: "AutoComplete",
+    url: "/autocomplete",
+  },
+  {
+    id: 12,
+    name: "React 18",
+    url: "/react18",
+  },
+  {
+    id: 13,
+    name: "Folder Structure (Accordin)",
+    url: "/folderstruct",
+  },
 ];
 
 export const Home = () => {

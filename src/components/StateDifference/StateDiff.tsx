@@ -21,8 +21,8 @@ export const StateDiff = () => {
 
 export const useCounter = (init: number = 0) => {
   const [count, setCount] = useState(init);
-  //   const increment = () => setCount(count + 1);
-  //   const decrement = () => setCount(count - 1);
+  // const increment = () => setCount(count + 1);
+  // const decrement = () => setCount(count - 1);
   const increment = () => setCount((count) => count + 1);
   const decrement = () => setCount((count) => count - 1);
   return { count, increment, decrement };
