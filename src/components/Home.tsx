@@ -72,6 +72,36 @@ const dataUrl: dataProps[] = [
     name: "Folder Structure (Accordin)",
     url: "/folderstruct",
   },
+  {
+    id: 14,
+    name: "Splash Screen",
+    url: "/splashscreen",
+  },
+  {
+    id: 15,
+    name: "Custom Form Validation",
+    url: "/formvalidation",
+  },
+  {
+    id: 16,
+    name: "Custom Data Hook",
+    url: "/customdatahook",
+  },
+  {
+    id: 17,
+    name: "Debouncing",
+    url: "/deboucing",
+  },
+  {
+    id: 18,
+    name: "Throttling",
+    url: "/throttling",
+  },
+  {
+    id: 19,
+    name: "React Refs",
+    url: "/refs",
+  },
 ];
 
 export const Home = () => {

@@ -12,6 +12,11 @@ import { SingleProgress } from "../components/ProgressBar/SingleProgress";
 import CommentBox from "../components/Comment/CommentBox";
 import { AutoBatching } from "../components/AutomaticBatching/AutoBatching";
 import { AppAccordin } from "../components/FolderStructure/Accordin";
+import { SplashScreen } from "../components/Splash Screen/SplashScreen";
+import { Debouncing } from "../components/Debouncing/Debouncing";
+import { Refs } from "../components/RefsReact/Refs";
+import { ConsumeApiData } from "../components/CustomDataHook/ConsumeApiData";
+import { FormValdiation } from "../components/CustomDataValidation/FormValdiation";
 
 export const AllRoutes = () => {
   return (
@@ -38,6 +43,11 @@ export const AllRoutes = () => {
         <Route exact path="singleprogress" element={<SingleProgress />} />
         <Route exact path="react18" element={<AutoBatching />} />
         <Route exact path="folderstruct" element={<AppAccordin />} />
+        <Route exact path="splashscreen" element={<SplashScreen />} />
+        <Route exact path="deboucing" element={<Debouncing />} />
+        <Route exact path="refs" element={<Refs />} />
+        <Route exact path="customdatahook" element={<ConsumeApiData />} />
+        <Route exact path="formvalidation" element={<FormValdiation />} />
       </Routes>
     </div>
   );

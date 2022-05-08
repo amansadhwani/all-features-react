@@ -12,6 +12,7 @@
   margin: 0 auto;
   height: 500px;
   overflow: hidden;
+  
 }
 
 .right-col {
@@ -62,4 +63,15 @@
   margin: 10px;
     border: 2px solid black;
   
+}
+
+.splash{
+  display: fixed;
+  height: 100%;
+  width:100%;
+  top:0;
+  left:0;
+  color:black;
+  z-index: 200;
+
 }
