@@ -102,6 +102,16 @@ const dataUrl: dataProps[] = [
     name: "React Refs",
     url: "/refs",
   },
+  {
+    id: 20,
+    name: "Drag and Drop",
+    url: "/drapdrop",
+  },
+  {
+    id: 21,
+    name: "Child to Parent Props",
+    url: "/childtoparent",
+  },
 ];
 
 export const Home = () => {
