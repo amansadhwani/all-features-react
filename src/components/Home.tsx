@@ -112,6 +112,16 @@ const dataUrl: dataProps[] = [
     name: "Child to Parent Props",
     url: "/childtoparent",
   },
+  {
+    id: 22,
+    name: "temp",
+    url: "/temp",
+  },
+  {
+    id: 23,
+    name: "Position",
+    url: "/position",
+  },
 ];
 
 export const Home = () => {

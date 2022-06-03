@@ -75,3 +75,24 @@
   z-index: 200;
 
 }
+
+.parent{
+background-color: aqua;
+position: relative;
+}
+.pos-absolute{
+  background-color:chartreuse;
+  position: absolute;
+  top:0;
+}
+.pos-fixed{
+  background-color:blueviolet;
+  bottom: 0; 
+  position:fixed;
+  right:0;
+}
+.pos-sticky{
+  background-color:cadetblue;
+  position:sticky;
+  top:0;
+}

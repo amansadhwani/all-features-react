@@ -18,6 +18,8 @@ import { Refs } from "../components/RefsReact/Refs";
 import { ConsumeApiData } from "../components/CustomDataHook/ConsumeApiData";
 import { FormValdiation } from "../components/CustomDataValidation/FormValdiation";
 import ChildToParent from "../components/ChildToParent/ChildToParent";
+import { Temp } from "../components/Temp/Temp";
+import { Position } from "../components/Position/Position";
 
 export const AllRoutes = () => {
   return (
@@ -50,6 +52,8 @@ export const AllRoutes = () => {
         <Route exact path="customdatahook" element={<ConsumeApiData />} />
         <Route exact path="formvalidation" element={<FormValdiation />} />
         <Route exact path="childtoparent" element={<ChildToParent />} />
+        <Route exact path="temp" element={<Temp />} />
+        <Route exact path="position" element={<Position />} />
       </Routes>
     </div>
   );
