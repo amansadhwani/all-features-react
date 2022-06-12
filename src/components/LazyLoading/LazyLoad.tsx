@@ -1,13 +1,13 @@
 import { lazy, Suspense, useState } from "react";
 /* Usual Import */
-import Chart from "./Chart";
+//import Chart from "./Chart";
 import ReactDOMServer from "react-dom/server";
 
 /* Naive lazy load */
-// const Chart = lazy(() => import("./Chart"));
+//const Chart = lazy(() => import("./Chart"));
 
-/* Lazy load with prefetch */
-// const Chart = lazy(() => import(/* webpackPrefetch: true */ "./Chart"));
+// /* Lazy load with prefetch */
+const Chart = lazy(() => import(/* webpackPrefetch: true */ "./Chart"));
 
 /* Predictive lazy load */
 // const loadChart = () => import("./Chart");
