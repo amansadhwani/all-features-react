@@ -122,6 +122,21 @@ const dataUrl: dataProps[] = [
     name: "Position",
     url: "/position",
   },
+  {
+    id: 24,
+    name: "Use Transition ",
+    url: "/useTransition ",
+  },
+  {
+    id: 25,
+    name: "Intellegent Lazy Loading ",
+    url: "/lazyloading ",
+  },
+  {
+    id: 26,
+    name: "Suspense List ",
+    url: "/suspenselist ",
+  },
 ];
 
 export const Home = () => {
