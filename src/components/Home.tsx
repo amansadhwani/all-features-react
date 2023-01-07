@@ -137,6 +137,11 @@ const dataUrl: dataProps[] = [
     name: "Suspense List ",
     url: "/suspenselist ",
   },
+  {
+    id: 27,
+    name: "Generics Typescript ",
+    url: "/generics ",
+  },
 ];
 
 export const Home = () => {

@@ -23,6 +23,7 @@ import { Position } from "../components/Position/Position";
 import Transition from "../components/UseTransition/Transition";
 import LazyLoad from "../components/LazyLoading/LazyLoad";
 import SuspenseList from "../components/SuspenseList/SuspenseList";
+import GenericsTypescript from "../components/GenericsTypescript/GenericsTypescript";
 
 export const AllRoutes = () => {
   return (
@@ -60,6 +61,7 @@ export const AllRoutes = () => {
         <Route exact path="useTransition" element={<Transition />} />
         <Route exact path="lazyloading" element={<LazyLoad />} />
         <Route exact path="suspenselist" element={<SuspenseList />} />
+        <Route exact path="generics" element={<GenericsTypescript />} />
       </Routes>
     </div>
   );
