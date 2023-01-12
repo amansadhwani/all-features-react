@@ -147,6 +147,11 @@ const dataUrl: dataProps[] = [
     name: "Context Api ",
     url: "/contextapi ",
   },
+  {
+    id: 28,
+    name: "Render props",
+    url: "/renderprops ",
+  },
 ];
 
 export const Home = () => {

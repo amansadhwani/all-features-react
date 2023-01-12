@@ -25,6 +25,7 @@ import LazyLoad from "../components/LazyLoading/LazyLoad";
 import SuspenseList from "../components/SuspenseList/SuspenseList";
 import GenericsTypescript from "../components/GenericsTypescript/GenericsTypescript";
 import Context from "../components/Context/Context";
+import RenderProps from "../components/RenderProps/RenderProps";
 
 export const AllRoutes = () => {
   return (
@@ -64,6 +65,7 @@ export const AllRoutes = () => {
         <Route exact path="suspenselist" element={<SuspenseList />} />
         <Route exact path="generics" element={<GenericsTypescript />} />
         <Route exact path="contextapi" element={<Context />} />
+        <Route exact path="renderprops" element={<RenderProps />} />
       </Routes>
     </div>
   );
