@@ -142,6 +142,11 @@ const dataUrl: dataProps[] = [
     name: "Generics Typescript ",
     url: "/generics ",
   },
+  {
+    id: 27,
+    name: "Context Api ",
+    url: "/contextapi ",
+  },
 ];
 
 export const Home = () => {
