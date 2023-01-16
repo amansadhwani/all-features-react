@@ -26,6 +26,7 @@ import SuspenseList from "../components/SuspenseList/SuspenseList";
 import GenericsTypescript from "../components/GenericsTypescript/GenericsTypescript";
 import Context from "../components/Context/Context";
 import RenderProps from "../components/RenderProps/RenderProps";
+import Svg from "../components/Svg/Svg";
 
 export const AllRoutes = () => {
   return (
@@ -66,6 +67,7 @@ export const AllRoutes = () => {
         <Route exact path="generics" element={<GenericsTypescript />} />
         <Route exact path="contextapi" element={<Context />} />
         <Route exact path="renderprops" element={<RenderProps />} />
+        <Route exact path="svg" element={<Svg />} />
       </Routes>
     </div>
   );

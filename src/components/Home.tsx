@@ -143,14 +143,19 @@ const dataUrl: dataProps[] = [
     url: "/generics ",
   },
   {
-    id: 27,
+    id: 28,
     name: "Context Api ",
     url: "/contextapi ",
   },
   {
-    id: 28,
+    id: 29,
     name: "Render props",
     url: "/renderprops ",
+  },
+  {
+    id:30,
+    name: "SVG",
+    url: "/svg ",
   },
 ];
 

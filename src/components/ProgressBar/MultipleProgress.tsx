@@ -1,7 +1,5 @@
-import React from "react";
-
 export const MultipleProgress = () => {
-  let total_progress: any = [];
+  let total_progress:any = [];
   let start = false;
 
   const addProgress = () => {
