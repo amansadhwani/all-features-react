@@ -157,6 +157,11 @@ const dataUrl: dataProps[] = [
     name: "SVG",
     url: "/svg ",
   },
+  {
+    id:31,
+    name: "D3",
+    url: "/d3 ",
+  }
 ];
 
 export const Home = () => {
