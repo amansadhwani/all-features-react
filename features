@@ -1,0 +1,35 @@
+1) Es 6-13 Features https://gist.github.com/rajaramtt/7df3702a04c644b0b62c9a64f48f3dbf#8--ecmascript-2022---es2022---es13
+2)Diffrence between map filter reduce forEach
+3) Call , apply, bind
+4) Oops in Javascript
+5)Event loops Must refer https://javascript.plainenglish.io/6-interview-questions-that-combine-promise-and-settimeout-34c430fc297e
+6)Critical rendering path
+7)All types of promises
+8)  Memosing fns , fns currying
+9) Typescript (Diff b/w interface and type) (what are generics in typescript)
+10)Design Patterns
+11) Solid Principe (Kiss, Dry , YAGNI)
+12) Interscetion observer
+13) React -> Patterns -> 1)Recursive Component( Eg of Posting comment in facebook the chain of comments) 
+                         2) Partially applied components 
+                         3)Component Composition
+                         4)render props
+                         5)Hoc (Higher order component)
+                         6)Compount pattern
+14) React 18
+15)Immutiblity in Js
+16) Optimization -> N/W Optimization, Performance , Lcp, Fip, Cls ,Preload, prefetch , repaint vs reflow, critical css, image optimization , short pooling vs long pooling
+17)Security (Various Front end security attacks)
+18) Accessiblity 
+19) Micro Front Ends
+20) Web components
+21) Pseudo classes vs elements
+22) Em Vs Rem
+23)ALl Browser Api ( eg console,storage,history,geolocation,fetch,payment,clipboard)
+24)Responsive vs adaptive design 
+25)Svg Vs canvas
+26)How to solve browser compablity issues
+27)Server side events
+28) Next js 12,13
+
+                        
