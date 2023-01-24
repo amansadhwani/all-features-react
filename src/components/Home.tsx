@@ -172,6 +172,11 @@ const dataUrl: dataProps[] = [
     name: "Progressive Image",
     url: "/progressive-img ",
   },
+  {
+    id: 34,
+    name: "Web Worker",
+    url: "/web-worker",
+  },
 ];
 
 export const Home = () => {

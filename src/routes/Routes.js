@@ -29,6 +29,7 @@ import RenderProps from "../components/RenderProps/RenderProps";
 import Svg from "../components/Svg/Svg";
 import D3 from "../components/D3/D3";
 import ProgressiveImage from "../components/ProgressiveImage/ProgressiveImage";
+import WebWorker from "../components/WebWorker/WebWorker";
 export const AllRoutes = () => {
   return (
     <div>
@@ -72,6 +73,7 @@ export const AllRoutes = () => {
         <Route exact path="d3" element={<D3 />} />
         {/* <Route exact path="use-query" element={<AppQuery />} /> */}
         <Route exact path="progressive-img" element={<ProgressiveImage />} />
+        <Route exact path="web-worker" element={<WebWorker />} />
       </Routes>
     </div>
   );
