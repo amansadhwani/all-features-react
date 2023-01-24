@@ -153,15 +153,25 @@ const dataUrl: dataProps[] = [
     url: "/renderprops ",
   },
   {
-    id:30,
+    id: 30,
     name: "SVG",
     url: "/svg ",
   },
   {
-    id:31,
+    id: 31,
     name: "D3",
     url: "/d3 ",
-  }
+  },
+  {
+    id: 32,
+    name: "Use Query",
+    url: "/use-query ",
+  },
+  {
+    id: 33,
+    name: "Progressive Image",
+    url: "/progressive-img ",
+  },
 ];
 
 export const Home = () => {
