@@ -30,6 +30,7 @@
 25)Svg Vs canvas
 26)How to solve browser compablity issues
 27)Server side events
-28) Next js 12,13
+28) Next js 12,13 (Diffrent Server side rendering patterns)
+29) Advanced hooks (useMemo, useCallback, useReducer) Also read about context api which avoid props drilling and any state management library redux or zustand(this is quite popular)
 
                         
