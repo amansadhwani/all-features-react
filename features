@@ -32,5 +32,8 @@
 27)Server side events
 28) Next js 12,13 (Diffrent Server side rendering patterns)
 29) Advanced hooks (useMemo, useCallback, useReducer) Also read about context api which avoid props drilling and any state management library redux or zustand(this is quite popular)
+30)Event deligation (event bubbling, capturing)
+31) BigInt and symbol  datatypes
+32) Arrow vs Normal Function 
 
                         
