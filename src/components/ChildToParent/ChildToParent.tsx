@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const ChildToParent = () => {
   const { search, render, renderWithProps } = useChild();
+
   return (
     <>
       <h1>ChildToParent</h1>

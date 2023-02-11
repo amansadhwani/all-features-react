@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { MultipleProgress } from "./MultipleProgress";
 export const SingleProgress = () => {
   const callProgress = () => {
-    let findClass: any = window.document.getElementById("single-progress");
+    let findClass:any = window.document.getElementById("single-progress");
     let width = 0;
     let interval = setInterval(() => {
       if (width > 100) {

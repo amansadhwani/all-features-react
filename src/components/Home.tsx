@@ -177,6 +177,11 @@ const dataUrl: dataProps[] = [
     name: "Web Worker",
     url: "/web-worker",
   },
+  {
+    id: 35,
+    name: "Star Rating",
+    url: "/star-rating",
+  },
 ];
 
 export const Home = () => {
