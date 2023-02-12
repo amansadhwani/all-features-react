@@ -32,6 +32,7 @@ import ProgressiveImage from "../components/ProgressiveImage/ProgressiveImage";
 import WebWorker from "../components/WebWorker/WebWorker";
 import { StarRating } from "../components/StarRating/StarRating";
 import AutoComplete from "../components/AutoComplete/AutoComplete";
+import TicTicToe from "../components/TicTicToe/TicTicToe";
 export const AllRoutes = () => {
   return (
     <div>
@@ -78,6 +79,7 @@ export const AllRoutes = () => {
         <Route exact path="web-worker" element={<WebWorker />} />
         <Route exact path="star-rating" element={<StarRating />} />
         <Route exact path="auto-complete" element={<AutoComplete />} />
+        <Route exact path="tic-tic-toe" element={<TicTicToe />} />
       </Routes>
     </div>
   );

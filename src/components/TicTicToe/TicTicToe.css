@@ -1,0 +1,21 @@
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+}
+
+.Mrow {
+    display: flex;
+    width: 100%;
+}
+
+.square {
+    width: 33.33%;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}

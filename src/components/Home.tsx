@@ -187,6 +187,11 @@ const dataUrl: dataProps[] = [
     name: "AutoComplete",
     url: "/auto-complete",
   },
+  {
+    id: 37,
+    name: "Tic Tic Toe",
+    url: "/tic-tic-toe",
+  },
 ];
 
 export const Home = () => {
@@ -194,11 +199,17 @@ export const Home = () => {
     <>
       <h1>List Of All Features</h1>
       <ul className="list-group">
-        {dataUrl.map((item) => (
-          <Link to={`${item.url}`} key={item.id}>
-            <li className="list-group-item">{item.name}</li>
-          </Link>
-        ))}
+        {dataUrl
+          .sort((a, b) => {
+            if (a.name < b.name) return -1;
+            if (a.name > b.name) return 1;
+            return 0;
+          })
+          .map((item) => (
+            <Link to={`${item.url}`} key={item.id}>
+              <li className="list-group-item">{item.name}</li>
+            </Link>
+          ))}
       </ul>
     </>
   );
