@@ -31,6 +31,7 @@ import D3 from "../components/D3/D3";
 import ProgressiveImage from "../components/ProgressiveImage/ProgressiveImage";
 import WebWorker from "../components/WebWorker/WebWorker";
 import { StarRating } from "../components/StarRating/StarRating";
+import AutoComplete from "../components/AutoComplete/AutoComplete";
 export const AllRoutes = () => {
   return (
     <div>
@@ -76,6 +77,7 @@ export const AllRoutes = () => {
         <Route exact path="progressive-img" element={<ProgressiveImage />} />
         <Route exact path="web-worker" element={<WebWorker />} />
         <Route exact path="star-rating" element={<StarRating />} />
+        <Route exact path="auto-complete" element={<AutoComplete />} />
       </Routes>
     </div>
   );

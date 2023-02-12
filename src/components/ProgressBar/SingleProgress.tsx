@@ -1,8 +1,10 @@
 import React, { useEffect } from "react";
 import { MultipleProgress } from "./MultipleProgress";
+import './ProgressBar.css'
 export const SingleProgress = () => {
-  const callProgress = () => {
-    let findClass:any = window.document.getElementById("single-progress");
+  const callProgress = (): void => {
+    let findClass = document.getElementById("single-progress") as HTMLElement;
+    if (!findClass) return;
     let width = 0;
     let interval = setInterval(() => {
       if (width > 100) {
@@ -13,6 +15,7 @@ export const SingleProgress = () => {
       width += 2;
     }, 100);
   };
+  
   useEffect(() => {
     callProgress();
   }, []);

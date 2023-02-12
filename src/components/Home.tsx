@@ -182,6 +182,11 @@ const dataUrl: dataProps[] = [
     name: "Star Rating",
     url: "/star-rating",
   },
+  {
+    id: 36,
+    name: "AutoComplete",
+    url: "/auto-complete",
+  },
 ];
 
 export const Home = () => {

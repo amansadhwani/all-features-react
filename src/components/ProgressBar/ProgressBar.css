@@ -1,0 +1,16 @@
+.single-progress-parent{
+    margin: 10px;
+  }
+  .single-progress {
+    border: 1px solid black;
+    height: 40px;
+    background: lightgreen;
+  }
+  .bar{
+    width:0%;
+    height: 40px;
+    background: lightgreen;
+    margin: 10px;
+      border: 2px solid black;
+    
+  }
