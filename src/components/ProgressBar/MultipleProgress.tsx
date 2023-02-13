@@ -1,9 +1,15 @@
+import React, { useRef } from "react";
+
 export const MultipleProgress = () => {
-  let total_progress:any = [];
+  let total_progress: any = [];
   let start = false;
+  const mainContainerRef = useRef<HTMLDivElement>(null);
+
 
   const addProgress = () => {
-    let main_div: any = document.getElementById("main-container");
+    let main_div = mainContainerRef.current;
+      //let main_div: any = document.getElementById("main-container");
+    if (!main_div) return;
     let new_div = document.createElement("div");
     new_div.classList.add("bar");
     main_div.appendChild(new_div);
@@ -34,7 +40,7 @@ export const MultipleProgress = () => {
   return (
     <div>
       <button onClick={() => addProgress()}>Add Progress BAr</button>
-      <div id="main-container"></div>
+      <div id="main-container" ref={mainContainerRef}></div>
     </div>
   );
 };

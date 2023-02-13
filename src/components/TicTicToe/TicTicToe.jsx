@@ -50,6 +50,13 @@ const TicTacToe = () => {
     return board.every((square) => square !== null);
   };
 
+  const resetGame = () => {
+    setBoard(Array(9).fill(null));
+    setCurrentPlayer("X");
+    setWinner(null);
+    setTie(false);
+  };
+
   const renderSquare = (index) => {
     return (
       <div key={index} className="square" onClick={() => handleClick(index)}>
@@ -69,6 +76,7 @@ const TicTacToe = () => {
           {Array.from({ length: 9 }, (_, i) => renderSquare(i))}
         </div>
       )}
+      {(winner || tie) && <button onClick={resetGame}>Reset</button>}
     </div>
   );
 };

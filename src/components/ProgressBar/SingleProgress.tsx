@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useRef  } from "react";
 import { MultipleProgress } from "./MultipleProgress";
 import './ProgressBar.css'
 export const SingleProgress = () => {
+  const progressRef = useRef<HTMLDivElement>(null);
   const callProgress = (): void => {
-    let findClass = document.getElementById("single-progress") as HTMLElement;
+   
+    //let findClass = document.getElementById("single-progress") as HTMLElement;
+    const findClass = progressRef.current;
     if (!findClass) return;
     let width = 0;
     let interval = setInterval(() => {
@@ -25,7 +28,7 @@ export const SingleProgress = () => {
       {" "}
       Single Progress
       <div className="single-progress-parent">
-        <div id="single-progress" className="single-progress"></div>
+        <div ref={progressRef} id="single-progress" className="single-progress"></div>
       </div>
       <MultipleProgress />
     </h1>
