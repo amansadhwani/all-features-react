@@ -33,6 +33,7 @@ import WebWorker from "../components/WebWorker/WebWorker";
 import { StarRating } from "../components/StarRating/StarRating";
 import AutoComplete from "../components/AutoComplete/AutoComplete";
 import TicTicToe from "../components/TicTicToe/TicTicToe";
+import CompoundPattern from "../components/CompoundPattern/CompoundPattern";
 export const AllRoutes = () => {
   return (
     <div>
@@ -80,6 +81,7 @@ export const AllRoutes = () => {
         <Route exact path="star-rating" element={<StarRating />} />
         <Route exact path="auto-complete" element={<AutoComplete />} />
         <Route exact path="tic-tic-toe" element={<TicTicToe />} />
+        <Route exact path="compound-pattern" element={<CompoundPattern />} />
       </Routes>
     </div>
   );

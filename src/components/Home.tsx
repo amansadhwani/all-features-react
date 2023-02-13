@@ -192,6 +192,11 @@ const dataUrl: dataProps[] = [
     name: "Tic Tic Toe",
     url: "/tic-tic-toe",
   },
+  {
+    id: 38,
+    name: "Compound Pattern",
+    url: "/compound-pattern",
+  }
 ];
 
 export const Home = () => {
