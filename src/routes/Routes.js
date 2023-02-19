@@ -1,7 +1,7 @@
 import { InfiniteScroll } from "../components/InfiniteScroll/InfiniteScroll";
 import { InfiniteScrollItem } from "../components/InfiniteScroll/InfiniteScrollItem";
 import { Route, Routes } from "react-router-dom";
-import { CustomPagination } from "../components/CustomPagination/CustomPagination";
+import  CustomPagination  from "../components/CustomPagination/CustomPagination";
 import { ECommerce } from "../components/ECommerce/ECommerce";
 import WithHoc from "../components/Hoc/HigherOrderComponent";
 import MemoExample from "../components/UseMemo/MemoExample";

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import React from 'react'
 type dataProps = {
   id: number;
   name: String;
@@ -196,6 +196,11 @@ const dataUrl: dataProps[] = [
     id: 38,
     name: "Compound Pattern",
     url: "/compound-pattern",
+  },
+  {
+    id: 39,
+    name: "Custom Pagination",
+    url: "/custom-pagination",
   }
 ];
 

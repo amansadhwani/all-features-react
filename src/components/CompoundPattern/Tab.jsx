@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState } from "react";
+import React, { createContext, useContext } from "react";
 import "./CompoundPattern.css";
 
 const TabContext = createContext();
@@ -17,7 +17,7 @@ const TabHeads = ({ children }) => {
   return <div className="heads">{children}</div>;
 };
 
-const TabItem = ({ label, index, children }) => {
+const TabItem = ({ label, index }) => {
   const { value, onChange } = useContext(TabContext);
   const handleClick = () => {
     onChange(index);
