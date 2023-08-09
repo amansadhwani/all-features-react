@@ -5,7 +5,7 @@ type TRenderCustomValue = {
 };
 
 const RenderProps = () => {
-  return <Input renderCustomValue={(value: string) => <>hello {value} </>} />;
+  return <Input renderCustomValue={(value: string) => <>hello {value} world </>} />;
 };
 
 const Input : FC<TRenderCustomValue>=({ renderCustomValue } ) => {
