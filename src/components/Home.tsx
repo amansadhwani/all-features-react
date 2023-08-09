@@ -207,7 +207,7 @@ const dataUrl: dataProps[] = [
 export const Home = () => {
   return (
     <>
-      <h1>List Of Features</h1>
+      <h1>List Of All Features</h1>
       <ul className="list-group">
         {dataUrl
           .sort((a, b) => {
