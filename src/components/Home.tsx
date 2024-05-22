@@ -201,6 +201,11 @@ const dataUrl: dataProps[] = [
     id: 39,
     name: "Custom Pagination",
     url: "/custom-pagination",
+  },
+  {
+    id: 40,
+    name: "Context vs Zustand",
+    url: "/context_zustand",
   }
 ];
 
