@@ -35,6 +35,8 @@ import AutoComplete from "../components/AutoComplete/AutoComplete";
 import TicTicToe from "../components/TicTicToe/TicTicToe";
 import CompoundPattern from "../components/CompoundPattern/CompoundPattern";
 import CombinedContextZustand from "../components/Context-Zustand/combined-context-zustand";
+import DoNotRenderChild from "../components/DoNotRenderChild/DoNotRenderChild";
+
 
 export const AllRoutes = () => {
   return (
@@ -87,6 +89,8 @@ export const AllRoutes = () => {
         
         <Route exact path="context_zustand" element={<CombinedContextZustand />} />
         {/* <Route exact path="context_zustand" element={<ZustandComponent />} /> */}
+        <Route exact path="do-not-render-child" element={<DoNotRenderChild />} />
+
       </Routes>
     </div>
   );

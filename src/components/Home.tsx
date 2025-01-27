@@ -206,6 +206,11 @@ const dataUrl: dataProps[] = [
     id: 40,
     name: "Context vs Zustand",
     url: "/context_zustand",
+  },
+  {
+    id: 41,
+    name: "DoNotRenderChild",
+    url: "/do-not-render-child",
   }
 ];
 
